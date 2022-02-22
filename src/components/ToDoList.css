@@ -1,0 +1,63 @@
+/*list section*/
+.list_container {
+    min-height: 70vh;
+    border-radius: 25px;
+    box-shadow: #808080 0px 1px 10px;
+    background:#FFF;
+    margin-bottom:3rem;
+}
+
+.list_header {
+    padding:2rem 0rem 1rem 0rem;
+    text-align:center;
+}
+
+.title_list_header {
+    font-size:2rem;
+    font-weight:700;
+    color:#555555;
+    display:block;
+}
+
+.description_list_header {
+    color: #808080;
+    display: block;
+}
+
+.txt_title, .txt_description {
+    resize:none;
+    width:100%;
+    height:auto;
+    text-align:center;
+    outline:none;
+    border:none;
+    font-family:monospace;
+}
+
+.txt_title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    padding:.15rem 0rem;
+}
+
+.txt_description {
+    padding: .05rem 0rem;
+    height:1rem;
+}
+
+.txt_description::-webkit-scrollbar {
+    display: none;
+}
+
+.vaciar_tareas_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.vaciar_tareas_container button {
+    padding:.5rem 1.5rem;
+    font-size:1rem;
+}
